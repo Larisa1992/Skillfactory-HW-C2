@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Vote</title>
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <style>
+            img {
+                max-height: 50px;
+                width: 100% \9;
+            }
+            a {
+                padding: 1rem 1.5rem; /* Поля вокруг текста */
+            }
+        </style>
+    </head>
+<body>
+<div class="container">
+    <div class="col">
+        <div><h3>Страница голосования</h3></div>
+        <form method="POST">
+            <div class="row justify-content-around">
+                <button class="btn-cat col-2" type="submit"><img class="img-fluid" src="./img/cat.svg" alt="cat">Vote for Cat</button>
+                <button class="btn-dog col-2" type="submit"><img class="img-fluid" src="./img/dog.svg" alt="dog">Vote for Dog</button>
+                <button class="btn-parrot col-2" type="submit"><img class="img-fluid" src="./img/parrot.svg" alt="parrot">Vote for Parrot</button>
+            </div>
+        </form>
+        
+        <a href="./pages/results.html" class="badge-info btn btn-lg btn-block m-3">Voting results</a>
+
+        <!-- <button type="button" class="btn btn-lg btn-info btn-block m-3">
+            <a href="./pages/results.html" class="badge badge-info">Voting results</a>
+        </button> -->
+    </div>
+</div>
+<script src="./src/some_file_with.js"></script>
+</body>
+</html>
